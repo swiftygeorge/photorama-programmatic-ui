@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		A64656D8299AF78500E8AC5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64656D7299AF78500E8AC5D /* AppDelegate.swift */; };
 		A64656DA299AF78500E8AC5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64656D9299AF78500E8AC5D /* SceneDelegate.swift */; };
-		A64656DC299AF78500E8AC5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64656DB299AF78500E8AC5D /* ViewController.swift */; };
-		A64656DF299AF78500E8AC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64656DD299AF78500E8AC5D /* Main.storyboard */; };
+		A64656DC299AF78500E8AC5D /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64656DB299AF78500E8AC5D /* PhotosViewController.swift */; };
 		A64656E1299AF78700E8AC5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64656E0299AF78700E8AC5D /* Assets.xcassets */; };
 		A64656E4299AF78700E8AC5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64656E2299AF78700E8AC5D /* LaunchScreen.storyboard */; };
 		A64656EF299AF78700E8AC5D /* PhotoramaProgammaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64656EE299AF78700E8AC5D /* PhotoramaProgammaticUITests.swift */; };
@@ -39,8 +38,7 @@
 		A64656D4299AF78500E8AC5D /* PhotoramaProgammaticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoramaProgammaticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64656D7299AF78500E8AC5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A64656D9299AF78500E8AC5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A64656DB299AF78500E8AC5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A64656DE299AF78500E8AC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A64656DB299AF78500E8AC5D /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		A64656E0299AF78700E8AC5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A64656E3299AF78700E8AC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A64656E5299AF78700E8AC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,8 +99,7 @@
 			children = (
 				A64656D7299AF78500E8AC5D /* AppDelegate.swift */,
 				A64656D9299AF78500E8AC5D /* SceneDelegate.swift */,
-				A64656DB299AF78500E8AC5D /* ViewController.swift */,
-				A64656DD299AF78500E8AC5D /* Main.storyboard */,
+				A64656DB299AF78500E8AC5D /* PhotosViewController.swift */,
 				A64656E0299AF78700E8AC5D /* Assets.xcassets */,
 				A64656E2299AF78700E8AC5D /* LaunchScreen.storyboard */,
 				A64656E5299AF78700E8AC5D /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				A64656E4299AF78700E8AC5D /* LaunchScreen.storyboard in Resources */,
 				A64656E1299AF78700E8AC5D /* Assets.xcassets in Resources */,
-				A64656DF299AF78500E8AC5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A64656DC299AF78500E8AC5D /* ViewController.swift in Sources */,
+				A64656DC299AF78500E8AC5D /* PhotosViewController.swift in Sources */,
 				A64656D8299AF78500E8AC5D /* AppDelegate.swift in Sources */,
 				A64656DA299AF78500E8AC5D /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A64656DD299AF78500E8AC5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A64656DE299AF78500E8AC5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A64656E2299AF78700E8AC5D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +430,6 @@
 				INFOPLIST_FILE = PhotoramaProgammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +457,6 @@
 				INFOPLIST_FILE = PhotoramaProgammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
