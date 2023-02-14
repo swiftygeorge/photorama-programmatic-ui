@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         let navController = UINavigationController()
         let photosViewController = PhotosViewController()
+        photosViewController.store = PhotoStore()
         navController.viewControllers = [photosViewController]
         window?.rootViewController = navController
         window?.makeKeyAndVisible()
