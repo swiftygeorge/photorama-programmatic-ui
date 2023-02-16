@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct Photo: Codable {
+struct Photo: Codable, Equatable {
+    static func ==(lhs: Photo, rhs: Photo) -> Bool {
+        lhs.photoID == rhs.photoID
+    }
+    
     let title: String
     let remoteURL: URL?
     let photoID: String
